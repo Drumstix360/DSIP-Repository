@@ -1,0 +1,50 @@
+6.2 FILE CONTENT ANALYSIS USING HEX VIEWER
+
+hex values for "world".
+
+77 6F 72 6C 64 21
+
+Hello World .doc Starting Position
+
+0x00001840
+
+Hello World 1 bit
+
+Offset where the image data starts: 0x3E
+
+Hello World 24 bit
+
+Offset where the image data starts: 0x36
+
+6.3 CHANGE & SHOW PERMISSIONS
+
+"This app cannot run on your PC"
+
+"To find a version for your PC, check with the publisher"
+
+The bytes did not change. Only the extension. It is just read differently.
+
+I can save the file as another file but I cannot edit the original file. Technically, this is because it is in read only.
+
+
+7 DISKS, DRIVES & PARTITIONS
+
+Questions (answer these in "answers.txt"):
+1. How many disks do you have on your machine?
+
+1 disk. I have only an SSD.
+
+2. For each disk, determine what the disk model is, its capacity is (in GB), and what the read and write speed is (in MB)? You might want to search the model on the internet to find the read and write speed.
+
+WD PC SN5000S sdeqnsj-1t00-1002
+
+924 GB Capacity 
+
+Read: up to 6,000 MB/s
+Write: 5,400 MB/s
+
+3. How many partitions does your disk or disks have, and what is their capacity? What is the function of each partition (e.g. contains your OS, contains only data, is a backup partition)?
+
+My disk only has one partition and the current partition OS(C:) has 924 GB capacity. The C: drive currently holds the OS and my files.
+
+

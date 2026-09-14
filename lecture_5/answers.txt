@@ -1,0 +1,66 @@
+4 IP ADDRESS, ROUTING & WEBREQUESTS
+
+1st Step
+
+curl ifconfig.me:
+145.118.101.229
+
+ipconfig:
+IPv4: 145.118.101.229
+
+2nd Step
+
+curl ifconfig.me:
+185.165.241.208
+
+ipconfig:
+IPv4: 145.118.101.229
+
+The IP address changed because the internet traffic is sent to the VPN's server therefore the IP shown is the VPN server's IP address instead of my original IP address.
+
+Step 3
+
+IP address:
+145.118.101.229 -> Public
+
+Gateway:
+145.118.100.1 -> Public
+
+Step 4
+
+C:\Users\matth>curl ipinfo.io
+{
+  "ip": "185.165.241.208",
+  "hostname": "185-165-241-208.hosted-by-worldstream.net",
+  "city": "Naaldwijk",
+  "region": "South Holland",
+  "country": "NL",
+  "loc": "51.9942,4.2097",
+  "org": "AS49981 WorldStream B.V.",
+  "postal": "2671",
+  "timezone": "Europe/Amsterdam",
+  "readme": "https://ipinfo.io/missingauth"
+}
+
+Step 5 and  6 
+
+First hub:  
+
+IP Address: 185.165.241.2
+
+Netherlands, Zuid-Holland, Naaldwijk,
+
+Post code: 2673 
+
+Last Hub:
+
+IP Address: 172.253.70.47
+
+USA, California, Mountain View City,
+
+Post code: 94043
+
+Postcode 2673 
+
+I notice that the data first gets sent to a data center nearby which was in the Netherlands and then sent to the USA.
+

@@ -1,0 +1,62 @@
+4 COMPONENT IDENTIFICATION
+Answer the following questions about your computer’s hardware (in "answers.txt").
+1. Find which CPU model you have. Next, list the number of cores, and core speed.
+
+AMD Ryzen™ AI 7 350 
+8 cores 16 threads
+
+Max. Boost Clock: Up to 5 GHz 
+Max Zen5c Clock: Up to 3.5 GHz 
+Base Clock: 2 GHz 
+Zen5 Base Clock: 2 GHz 
+Zen5c Base Clock: 2 GHz 
+
+2. What type of RAM do you have, what is the model, what is the speed, and how much RAM do you have (in GB)? Hint: look up the Part Number in your console.
+
+Samsung LPDDR5 Soldered RAM 4x4
+Part Number: K3KL8L80DM-MGCU
+Speed: 7500 MT/s
+
+3. What kind of GPU do you have, and how much VRAM does it have or how much RAM is dedicated towards the iGPU?
+
+dGPU: RTX 5060 Mobile 8GB VRAM
+iGPU: Radeon 860M 412MB VRAM
+
+4. What firmware/bios version do you have? When was it last updated?
+
+BIOS Version/Date: American Megatrends International, LLC FA401KM.308 6/3/2026
+SMBIOS Version 3.7
+
+5 BOOT ORDER
+Go to your BIOS and write down the boot order of your machine, can your computer boot from a USB disk?
+
+Windows Boot Manager (internal SSD)
+USB storage device
+Network/PXE boot
+
+And yes, it can boot from a USB disk as long as the USB disk is bootable and is recognized by the BIOS. For example, I had a USB with Ubuntu on it and it booted.
+
+
+6 SCREEN RESOLUTION
+Go to display settings and look up your current screen resolution, and write it down.
+
+2560 x 1600
+
+Now, change your screen orientation to portrait mode and describe what happens. Why would you put your screen in portrait mode? 
+
+It rotates 90 degrees. Portrait mode may be useful for using a screen sideways where longer content or documents can fit.
+
+Finally, what happens when you change the resolution to 800x600?
+
+when the resolution was changed to 800 x 600 the display became blurrier because its resolution was 800 x 600. On Windows 11, the text also becomes larger.
+
+7 MONITOR HARDWARE
+In this task, we will monitor our CPU and Network usage. Make sure that while you are doing this task, you are not using your computer for anything else, as it would change the outcome.
+
+Follow the following procedure and do within 30 seconds, otherwise repeat the steps:
+q Windows:
+1. Open "Task Manager" and go to the "Performance" tab.
+2. Go to the "Processor" tab and right click in the graph and change the setting from viewing total usage to all logical processors.
+3. Go to nos.nl by clicking this link.
+4. Go back to "Task Manager" and make a screenshot of your CPU usage over the last 60 seconds.
+5. Now, go to the "wifi" tab and also make a screenshot of your wifi usage over the last 60 seconds.

@@ -1,0 +1,24 @@
+5 DEVICE DRIVERS
+
+a.How many active drivers are currently running on your system?
+
+195 by using the cmd
+
+driverquery | find /c /v ""
+
+on cmd with administrator
+
+b. Where are your wifi and network drivers located and what is the name of the drivers?
+
+Device Manager > Network Adapters > Realtek 8852CE WiFi 6E PCI-E NIC
+
+Device Name: Realtek 8852CE WiFi 6E PCI-E NIC
+
+Driver: rtwlane602.sys
+
+6.2 FIND ACTIVE PROCESS LOCATIONS
+
+Browser Location:
+C:\Program Files\Mozilla Firefox
+
+
