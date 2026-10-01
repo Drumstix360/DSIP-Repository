@@ -1,0 +1,16 @@
+type numbers start
+number [5]
+end
+
+var grades is numbers
+grades -> numbers (10)
+
+grades [1] -> grades [0]
+grades [2] -> grades [0]
+grades [3] -> grades [0]
+grades [4] -> grades [0]
+
+
+print (grades)
+grades [ 0 ] := 42
+print (grades)

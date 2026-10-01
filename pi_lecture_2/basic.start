@@ -1,0 +1,14 @@
+# Your Code
+    
+#Variables
+var name is text
+var grade is number #this could also be text and it would be okay
+var course is text
+
+#Assigned Values
+name -> "Matthew"
+grade -> 10
+course -> "DSPI"
+
+# print final output
+print("My name is", Matthew, "and I want a", 10, "for the course", DSPI)

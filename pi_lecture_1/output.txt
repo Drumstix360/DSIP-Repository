@@ -1,0 +1,8 @@
+PS C:\Users\matth\Documents\Leiden_Universiteit\DSIP-Repository\lecture_6> python example.py
+What is your name? Matthew
+Welcome to start Matthew!
+What is your favorite number? 7
+Based on your number, I think the following calculation will result in the number 42.
+Calculating answer ...
+The answer is: 42
+PS C:\Users\matth\Documents\Leiden_Universiteit\DSIP-Repository\lecture_6> 

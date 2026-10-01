@@ -1,0 +1,27 @@
+var a is number
+var b is number
+var firstname is text
+var lastname is text
+
+a = 8
+b = 2
+
+firstname = "Banana "
+lastname = "Apple"
+
+var fullname is text
+fullname = ++(firstname, ++(" ", lastname))
+
+var c is number
+c = +(a,b)
+
+var d is number
+d = -(a,b)
+
+var e is number
+e = &(a,b)
+
+var f is number
+f = a<b
+
+print ("The sum of a and b is ",c," the difference is ",d," , a and b (logical and) is ",e," , a smaller than b is ",f," , the full name is ",fullname)

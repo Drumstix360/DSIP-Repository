@@ -1,0 +1,21 @@
+# Create a custom type which is collection of three numbers
+type savings start
+number [ 3 ]
+end
+
+
+# declare and initialize a variable to store the savings
+var my_savings is savings
+my_savings -> savings (1000, 15000, 932)
+
+
+# Create a new variable to store the sum of my savings
+var total_savings is number
+
+# calculate the total savings using plus and indexing
+total_savings -> my_savings [ 0 ] + my_savings [ 1 ] + my_savings [ 2 ]
+
+
+# print the result
+print ( " My savings accounts have the following amounts : " , my_savings )
+print ( " which total : " , total_savings )
